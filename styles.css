@@ -1,0 +1,228 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* #bloc_page{
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+} */
+
+
+header{
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    display: flex;  
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #fff9dc;
+    border-bottom: #dacfcf 3px solid;
+     
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    margin-left: 0;
+    
+
+}
+
+.nav{
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.logo_titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    display: flex;
+    align-items: flex-end;
+}
+
+header img{
+    display: flex;
+    
+}
+
+h1,
+h2{
+    margin: 0 0;
+}
+
+.background{
+    width: 940px;
+    margin: auto;
+    padding: 0 0 20px 0;
+    background-image: url(/zozor/images/sanfrancisco.jpg);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 200px;
+    display: flex;  
+    position: relative;
+
+}
+
+.filtre{
+    background-color: rgba(0,0,0,.7);
+    height: 40px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:absolute;
+    bottom: 0;
+
+}
+
+
+.background p{
+    display: flex;
+    align-items: flex-end;
+    align-items: baseline;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.background button{
+    border-right: solid 5px #a82a2c;
+    display: flex;
+    align-items: center;
+    background-color: #a82a2c;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: #fff;
+    height: 30px;
+    width: 90px;
+}
+
+.fleche_button{
+    background: #a82a2c;
+    display: flex;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px; 
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;  
+    margin-right: 10px;
+}
+
+.bouton_fleche{
+    display: flex;
+    
+}
+
+.coeur_body{
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f7ebcc;
+    display: flex;
+}
+
+.paragraphes{
+    text-align: justify;
+    width: 70%;
+}
+
+.aside{
+    background-color: #6e6963;
+    color: #fff;
+    border-radius: 5px;
+    height: 400px;
+    width: 26%;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    margin-left: 20px;
+    text-align: justify;
+    padding: 0 20px 20px 20px;
+    
+}
+
+.aside img{
+    height: 100px;
+    width: 120px;
+    display: flex;
+
+}
+
+.icones{
+    display: flex;
+    justify-content: space-around; 
+    width: 100%;
+}
+
+.icones img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+
+footer{
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff7de;
+    border-top: 2px solid #cdb599;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.titre_photos img{
+    width: 80px;
+    height: 80px;
+}
+
+
+.nom_ami{
+     display: flex;
+     padding-left: 0;
+}
+
+.mon_ami_ul1{
+    padding-left: 0;
+
+}
+
+
+.mes_amis li{
+    color: #9c2125;
+    display: flex;
+}
+
+.mes_amis ul li{
+    display: list-item;
+    list-style-image: url(../images/ico_liensexterne.png);
+}
+
+
+
+.mes_amis h3{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+
+
